@@ -20,57 +20,57 @@ export default class personalWeb extends React.Component {
     this.state = {
       resumePosition: {
         start: true,
-        width: 1.2,
-        height: 1.6,
-        translateX: -3,
-        translateY: 1.3,
-        translateZ: -2,
-        rotateY: 48,
-        image: 'AaronStackResume.jpg'
+        width: 2.0,
+        height: 2.6,
+        translateX: -4.8,
+        translateY: 1.4,
+        translateZ: -1,
+        rotateY: 55,
+        image: 'EvansWangResume.png'
       },
       linkedinPosition: {
-        width: 2.8,
-        height: 2.4,
-        translateX: -9.2,
-        translateY: 4.65,
-        translateZ: -2,
-        rotateY: 69,
-        image: 'ASBLinkedin.jpg',
-        url: 'https://www.linkedin.com/in/aaron-stack-10778920/'
+        width: 25,
+        height: 30.0,
+        translateX: -70.0,
+        translateY: 22.0,
+        translateZ: 11.0,
+        rotateY: 90,
+        image: 'EvansLinkedin.png',
+        url: 'https://www.linkedin.com/in/evansjwang/'
       },
       gitHubPosition: {
-        width: 3.8,
-        height: 3.4,
-        translateX: 2.6,
-        translateY: 5.9,
-        translateZ: -7,
-        rotateY: -35,
-        image: 'ASBGitHub.jpg',
-        url: 'https://www.linkedin.com/in/aaron-stack-10778920/'
+        width: 3.1,
+        height: 3.0,
+        translateX: 0.0,
+        translateY: 34.0,
+        translateZ: -6,
+        rotateY: 0,
+        image: 'EvansGitHub.png',
+        url: 'https://github.com/EvansJWang'
       },
       contactMePostion: {
-        width: 5.8,
-        height: 5.4,
-        translateX: 10,
-        translateY: 10.5,
-        translateZ: -7,
-        rotateY: -60,
+        width: 1.0,
+        height: 1.0,
+        translateX: 1.2,
+        translateY: 36.1,
+        translateZ: -2,
+        rotateY: -35,
         image: 'Email.jpg',
-        url: 'mailto:aaron@aaronstackbarnes.com'
+        url: 'mailto:HireMe@evanswang.com'
       },
       helloBlurbPostion: {
         translateX: -15,
-        translateY: 65,
+        translateY: 80,
         translateZ: -95,
-        rotateY: 0,
+        rotateY: 20,
       },
       resumeBlurbPostion: {
-        width: 30,
-        height: 7,
-        translateX: -65,
-        translateY: 92,
-        translateZ: -55,
-        rotateY: 40,
+        width: 20,
+        height: 15,
+        translateX: -20,
+        translateY: 30,
+        translateZ: -50,
+        rotateY: 20,
       },
     }
   }
@@ -86,9 +86,9 @@ export default class personalWeb extends React.Component {
     } else {
         let newPosition = Object.assign({}, this.state.resumePosition);
           newPosition.start = true;
-          newPosition.width = 1.2;
-          newPosition.height = 1.6;
-          newPosition.rotateY = 48;
+          newPosition.width = 2.0;
+          newPosition.height = 2.6;
+          newPosition.rotateY = 55;
       this.setState({ resumePosition: newPosition })
     }
  }
@@ -96,7 +96,7 @@ export default class personalWeb extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('ASB1.jpg')}/>
+        <Pano source={asset('EJW.jpg')}/>
         <ResumeLink
           resumePosition={this.state.resumePosition}
           showResume={this.showResume}/>
