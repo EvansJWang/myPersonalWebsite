@@ -21,7 +21,7 @@ class HelloBlurb extends React.Component {
                 textAlignVertical: 'center',
               }}
             >
-              Hi I am Aaron,
+              Hi I am Evans,
             </Text>
             <Text
               style={{
