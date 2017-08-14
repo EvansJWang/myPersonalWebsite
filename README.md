@@ -2,8 +2,8 @@
 # Prepare React-VR to push Heroku
 # Created by
 
-* [Aaron Stack Barnes] (https://github.com/aaronstackbarnes)
-* [Evans Wang] (https://github.com/evansjwang)
+* [Aaron Stack Barnes](https://github.com/aaronstackbarnes)
+* [Evans Wang](https://github.com/evansjwang)
 
 ## Install
 
