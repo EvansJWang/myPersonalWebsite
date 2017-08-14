@@ -1,5 +1,8 @@
 
 # Prepare React-VR to push Heroku
+##
+![](react-vr.gif)
+
 # Created by
 
 * [Aaron Stack Barnes](https://github.com/aaronstackbarnes)
