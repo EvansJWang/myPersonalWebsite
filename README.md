@@ -1,6 +1,8 @@
 
 # Prepare React-VR to push Heroku
-##
+## 
+React VR allows you to create compelling VR experiences. Heroku is the easiest way to deploy your web app.
+In this tutorial will walk you through pushing your React-VR website to Heroku.
 ![](react-vr.gif)
 
 # Created by
