@@ -8,7 +8,9 @@ In this tutorial will walk you through pushing your React-VR website to Heroku.
 # Created by
 
 * [Aaron Stack Barnes](https://github.com/aaronstackbarnes)
+www.aaronstackbarnes.com
 * [Evans Wang](https://github.com/evansjwang)
+www.evanswang.com
 
 ## Install
 
